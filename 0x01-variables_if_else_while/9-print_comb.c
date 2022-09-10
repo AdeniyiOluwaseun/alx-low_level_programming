@@ -13,14 +13,14 @@ int main(void)
 {
 	int n, h, i;
 
-	n = 48;
+	n = 0;
 	h = ',';
 	i = ' ';
 
-	while (n < 58)
+	while (n < 10)
 	{
-		putchar(n);
-		if (n != 58)
+		putchar(48 + n);
+		if (n != 9)
 		{
 			putchar(h);
 			putchar(i);
