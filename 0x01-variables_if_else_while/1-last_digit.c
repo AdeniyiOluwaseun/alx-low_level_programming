@@ -3,11 +3,14 @@
 /* more headers goes there */
 #include <stdio.h>
 /**
- * betty style doc for function main goes there
  * main - main function
- * rand - randomize certain numbers
- * Return: returns 0
- * Description: 'finding the last digit of a random number'
+ * rand: - randomize every time initiated
+ * srand: - really do not know what it does
+ * time: - probably does some numerics
+ * Description: returns positive, negative or otherwise with n variable.
+ * betty style doc for function main goes there
+ * use the function 'rand()'
+ * Return: returns 0 successfuly
  */
 int main(void)
 {
