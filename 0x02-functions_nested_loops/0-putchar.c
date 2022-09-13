@@ -11,7 +11,7 @@ int main(void)
 	char mess[] = "_putchar";
 	int counter = 0;
 
-	while (counter < 9)
+	while (counter < 8)
 	{
 	_putchar(mess[counter]);
 	counter++;
