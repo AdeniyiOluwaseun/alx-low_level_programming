@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * print_sign - function prints number sign
  * Return: 1 if true and 0 if false
@@ -23,6 +23,7 @@ int print_sign(int c)
 		store = '-1';
 		_putchar('-');
 	}
-	_putchar(',');
+	
+
 	return(store);
 }
