@@ -4,26 +4,19 @@
  * Return: Always 0.
  * @int: parameter is passed
  */
-int_abs(int x)
+int _abs(int x)
 {
 	if (x > 0)
 	{
-		int p = x * (+1);
-
-		_putchar(p);
+		_putchar('%d', (x * (+1)));
 	}
 	else if (x == 0)
 	{
-		int e = x * 0;
-
-		_putchar();
+		_putchar('%d', (x * 0));
 	}
 	else
 	{
-		int n = x * (-1);
-
-		_putchar(n);
+		_putchar('%d', (x * (-1)));
 	}
-
 	return (0);
 }
