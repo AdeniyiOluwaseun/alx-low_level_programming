@@ -2,11 +2,11 @@
 /**
  * print_sign - function prints number sign
  * Return: 1 if true and 0 if false
- * @c: parameter is passed
+ * @n: parameter is passed
  */
-int print_sign(int c)
+int print_sign(int n)
 {
-	int score;
+	int store;
 
 	if (n > 0)
 	{
@@ -20,10 +20,9 @@ int print_sign(int c)
 	}
 	else
 	{
-		store = '-1';
+		store = -1;
 		_putchar('-');
 	}
-	
 
-	return(store);
+	return (store);
 }
