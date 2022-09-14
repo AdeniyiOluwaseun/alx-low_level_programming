@@ -4,10 +4,8 @@
  * Return: Always 0.
  * @int: parameter is passed
  */
-int_abs(int)
+int_abs(int x)
 {
-	int x;
-
 	if (x > 0)
 	{
 		int p = x * (+1);
