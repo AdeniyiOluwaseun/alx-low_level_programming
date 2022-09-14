@@ -23,5 +23,6 @@ int print_sign(int c)
 		store = '-1';
 		_putchar('-');
 	}
+	_putchar(',');
 	return(store);
 }
