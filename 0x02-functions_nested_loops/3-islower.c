@@ -4,11 +4,7 @@
  * Return: 1 if true and 0 if false
  * @c: parameter is passed
  */
-int main(void)
-{
 int _islower(int c)
 {
 	return (c >= 97 && c <= 122);
-
-}
 }
