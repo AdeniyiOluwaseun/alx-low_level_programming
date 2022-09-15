@@ -2,6 +2,7 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
+#include "main.h"
 /**
  * main - main function
  * rand: - randomize every time initiated
