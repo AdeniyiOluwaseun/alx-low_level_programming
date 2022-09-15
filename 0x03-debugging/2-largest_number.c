@@ -20,10 +20,14 @@ int largest_number(int a, int b, int c)
 	{
 	largest = b;
 	}
-	else
+	else if (c > b && c > a)
 	{
 	largest = c;
 	}
-	printf("%d is the largest number", largest);
+	else
+	{
+	largest = a;
+	}
+
 	return (largest);
 }
