@@ -6,6 +6,6 @@ int _isalpha(int c);
 int print_sign(int c);
 int _abs(int x);
 int print_last_digit (int x);
-void times_table (void)
+void times_table (void);
 int add(int x, int y);
 int print_to_98 (int n);

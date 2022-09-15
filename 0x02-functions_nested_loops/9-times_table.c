@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * times_table - function prints times table to 9
  * Return: void
