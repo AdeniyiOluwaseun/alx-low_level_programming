@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * times_table - function prints times table to 9
@@ -5,30 +6,37 @@
  */
 void times_table(void)
 {
-	int x = 0;
-	int y;
-	int z;
+int main(void)
+{
+int c = 0;
+int d = 0;
+int e = 1;
 
-	while (y <= 9)
-	{
-		z = x * y;
-
-		if (y == 0)
-		{
-			_putchar('0' + z);
-		}
-		else if (z < 10)
-		{
-			_putchar(' ');
-			_putchar('0' + z);
-		}
-		else
-		{
-			_putchar('0' + z / 10);
-			_putchar('0' + z % 10);
-		}
-		y++;
-	}
-	_putchar('\n');
-	x++;
+while (c <= 5)
+{
+int d = 1;
+while (d > 0 && <= 9)
+{
+if (c == 0)
+{
+printf("%d, ", 0);
+d++;
+}
+else if ( c == 1)
+{
+printf("%d, ", d);
+d++;
+}
+while (c > 1)
+{
+printf("%d, ", d);
+d++;
+}
+}
+printf("%d, ", 0);
+c = c + 1;
+putchar('\n');
+}
+return (0);
+}
 }
