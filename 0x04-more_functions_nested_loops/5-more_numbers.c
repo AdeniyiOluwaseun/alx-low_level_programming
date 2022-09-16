@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,18 +8,17 @@
  */
 void more_numbers(void)
 {
-	int i;
-	int x;
+	char a, b;
 
-	for (x = 0; x < 10; x++)
+	for (a = 0; a < 10; a++)
 	{
-		for (i = 0; i <= 14; i++;)
+		for (b = 0; b <= 14; b++;)
 		{
-			if (i >= 10)
+			if (b >= 10)
 			{
-				_putchar(i / 10 + '0');
+				_putchar(b / 10 + '0');
 			}
-				_putchar(i % 10 + '0');
+			_putchar(b % 10 + '0');
 		}
 	_putchar('\n');
 	}
