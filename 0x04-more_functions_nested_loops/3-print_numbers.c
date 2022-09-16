@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_numbers - function prints out numbers from 0 to 9
  * Return: 0 Always
@@ -10,9 +11,9 @@ void print_numbers(void)
 
 	while (x <= '9')
 	{
-		_putchar(x);
+		putchar(x);
 		x++;
 	}
-	_putchar('\n');
+	putchar('\n');
 }
 
