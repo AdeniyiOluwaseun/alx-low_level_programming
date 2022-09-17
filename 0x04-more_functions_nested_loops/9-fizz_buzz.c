@@ -26,11 +26,13 @@ int main(void)
 			{
 				printf("Buzz ");
 			}
+		}
 		else if (x % 3 == 0)
 		{
 			printf("Fizz");
 		}
 		else
+		{
 			printf("%d", x);
 		}
 	x++;
