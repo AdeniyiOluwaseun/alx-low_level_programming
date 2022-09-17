@@ -1,27 +1,24 @@
 #include <stdio.h>
 #include "main.h"
-
-
 /**
- * more_numbers - Print numbers between 0 to 14 incl.
- *
- * Return: Void.
+ * more_numbers - function prints out numbers from 0 to 9
+ * Return: void
  */
+
 void more_numbers(void)
 {
-	char a, b;
+    int x, y;
 
-	for (a = 0; a < 10; a++)
-	{
-		for (b = 0; b <= 14; b++;)
-		{
-			if (b >= 10)
-			{
-				_putchar(b / 10 + '0');
-			}
-			_putchar(b % 10 + '0');
-		}
-	_putchar('\n');
-	}
+    for (x = 0; x < 10; x++)
+    {
+        for (y = 0; y <= 14; y++)
+        {
+            if (y > 9)
+            {
+                putchar((y / 10) + '0');
+            }
+            putchar((y % 10) + '0');
+        }
+        putchar(10);
+    }
 }
-
