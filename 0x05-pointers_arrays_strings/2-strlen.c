@@ -2,14 +2,17 @@
 #include <stdio.h>
 /**
  * _strlen - Returns length a string.
- * @str: string for length of.
+ * @s: string for length of.
  *
- * Return: length of @str.
+ * Return: length of @s.
  */
 
 int _strlen(char *s)
 {
-	int l = sizeof(s) - 1;
+	int l = 0;
+
+	while (*s++)
+		l++;
 
 	return (l);
 }
