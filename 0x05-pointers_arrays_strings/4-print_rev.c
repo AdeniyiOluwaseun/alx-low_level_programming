@@ -17,11 +17,12 @@ void _print_rev(char *s)
 	}
 	x = x + 1;
 
-	int y;
+	int y, z;
 
 	for (y = 1; y <= x; y++)
 	{
-		_putchar(s[x - y]);
+		z = x - y;
+		_putchar(s[z]);
 	}
 	_putchar('\n');
 }
