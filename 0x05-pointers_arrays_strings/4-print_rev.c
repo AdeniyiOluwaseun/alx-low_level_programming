@@ -15,14 +15,9 @@ void _print_rev(char *s)
 	{
 		x++;
 	}
-	x = x + 1;
-
-	int y, z;
-
-	for (y = 1; y <= x; y++)
+	while (x--)
 	{
-		z = x - y;
-		_putchar(s[z]);
+		_putchar(s[x]);
 	}
 	_putchar('\n');
 }
