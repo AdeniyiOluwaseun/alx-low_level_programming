@@ -9,9 +9,12 @@
 
 void _puts(char *str)
 {
-	while (*str++)
+	int x = 0;
+
+	while (str[x])
 	{
-		_putchar(*str++);
+		_putchar(str[x]);
+		x++;
 	}
 	_putchar('\n');
 }
