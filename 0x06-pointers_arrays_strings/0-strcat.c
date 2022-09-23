@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _strlen - function that append string one to string two
+ * _strcat - function that append string one to string two
+ * _strlen - function that return the legnth of a string
  * @dest: first parameter
- * Return: void
+ * @src: second parameter
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -15,7 +17,7 @@ char *_strcat(char *dest, char *src)
 
 	for (x = 0; x <= len2; x++)
 	{
-		dest[len1 + 1] = src[i];
+		dest[len1 + 1] = src[x];
 	}
-	return(dest);
+	return (dest);
 }

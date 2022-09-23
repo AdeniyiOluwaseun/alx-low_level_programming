@@ -4,6 +4,8 @@
 
 /**
  * main - header file for prototypes
+ * _putchar - fucntion that prints character
+ * @c: parameter
  * void protypes (void)
  * int prototypes (int)
  */
@@ -29,5 +31,6 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
+int _strlen(char *s);
 
-#endif /* MAIN_H /
+#endif /* MAIN_H */
