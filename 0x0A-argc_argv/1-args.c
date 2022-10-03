@@ -13,9 +13,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%d\n", argc);
 	}
-	else
-	{
-		printf("Zero arguments");
-	}
 	return (0);
 }
