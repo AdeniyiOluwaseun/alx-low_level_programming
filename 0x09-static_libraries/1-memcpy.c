@@ -4,7 +4,7 @@
  * _memcpy - funtion
  * @src: parameter
  * @dest: para
- * @n para
+ * @n: para
  * Return: something
  */
 
