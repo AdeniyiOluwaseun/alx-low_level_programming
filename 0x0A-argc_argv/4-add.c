@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Program that takes in all integer arguments and returns sum
@@ -9,32 +10,23 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j, length, sum;
-	char *ptr;
+	int num, digit, sum = 0;
 
-	if (argc < 2)
-	printf("0\n");
-	else
+	for (num = 1; num < argc; num++)
 	{
-		sum = 0;
-		for (i = 1; i < argc; i++)
+		for (digit = 0; argv[num][digit]; digit++)
 		{
-			ptr = argv[i];
-			length = strlen(ptr);
-
-			for (j = 0; j < length; j++)
+			if (argv[num][digit] < '0' || argv[num][digit] > '9')
 			{
-				if (isdigit(*(ptr + j)) == 0)
-				{
-					printf("Error\n");
-					return (1);
-				}
+				printf("Error\n");
+				return (1);
 			}
-
-			sum += atoi(argv[i]);
 		}
 
-		printf("%d\n", sum);
+		sum += atoi(argv[num]);
 	}
+
+	printf("%d\n", sum);
+
 	return (0);
 }
