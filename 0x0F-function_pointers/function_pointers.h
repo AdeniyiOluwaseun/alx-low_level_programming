@@ -7,6 +7,8 @@
  * void protypes (void)
  * print_name - prints name
  * _putchar - prints char
+ * @c: parameter for _putchar
+ * Return: and int
  *
  */
 
